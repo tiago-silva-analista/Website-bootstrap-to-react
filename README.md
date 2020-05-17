@@ -15,3 +15,5 @@ To see the result [click here](https://website-template-tiago.netlify.app/).
 We are using **ReactJS** and **BootStrap** to create the website final template. In the project beginning we have all tags and logic from website implemented on App.js file.
 
 The plan is create components to segregate the features and improve the maintenance in the future.
+
+The first react concept implemented was on Header component. We are passing a title props with the website name to be showed on title tag and ee are building the li object using a menu array. With the map function, we are loading the items from menu object on the screen.
