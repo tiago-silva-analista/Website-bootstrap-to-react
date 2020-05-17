@@ -9,3 +9,9 @@ The project is a website template createc with boostrap and the final result wil
 To see the result [click here](https://website-template-tiago.netlify.app/).
 
 #React #ReactJS #BootStrap
+
+## Structure
+
+We are using **ReactJS** and **BootStrap** to create the website final template. In the project beginning we have all tags and logic from website implemented on App.js file.
+
+The plan is create components to segregate the features and improve the maintenance in the future.
