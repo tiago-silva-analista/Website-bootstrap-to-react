@@ -3,35 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 
 import Header from './Components/Header'
+import Banner from './Components/Banner'
+import About from './Components/About'
 
 function App() {
   return (
     <div>
       <Header Title="Developer Tiago - Analista"/>
-      <section id="Banner" class="content-section">
-        <div class="container content-wrap text-center">
-          <h1>Bootstrap Template</h1>
-          <h3>
-            <em>A Bootstrap Theme to start building a new landing page</em>
-          </h3>
-          <a class="btn btn-primary btn-xl smooth-scroll" href="#About">Find Out More</a>
-        </div>
-        <div class="overlay"></div>
-      </section>
 
-      <section id="About" class="content-section">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="block-heading">
-                <h2>About Us</h2>
-              </div>
-              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <Banner />
+     
+      <About />
       <section id="Services" class="content-section text-center">
         <div class="container">
           <div class="block-heading">
