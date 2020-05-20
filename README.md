@@ -2,6 +2,12 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/829cef20-2d34-46db-b74b-d67bbb7c5c02/deploy-status)](https://app.netlify.com/sites/website-template-tiago/deploys)
 
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#anchor-structure">Structure</a>
+</p>
+
 # Welcome to "Website-BootStrap-To-React" Project! 
 
 The project is a website template created with boostrap and the final result will be a website converted to React JS library. The project will continue use the bootstrap but with the react concepts.
@@ -19,7 +25,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 -  [BootStrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 -  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-## Structure
+## :anchor: Structure
 
 We are using **ReactJS** and **BootStrap** to create the website final template. In the project beginning we have all tags and logic from website implemented on App.js file.
 
@@ -47,3 +53,4 @@ $ yarn install
 
 # Run the app
 $ yarn start
+
