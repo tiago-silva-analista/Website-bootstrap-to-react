@@ -4,8 +4,8 @@ import './App.css';
 
 import Header from './Components/Header'
 import Banner from './Components/Banner'
-import About from './Components/About'
-import Services from './Components/Services'
+import {About} from './Components/About'
+import {Services} from './Components/Services'
 
 function App() {
   return (
