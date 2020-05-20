@@ -43,10 +43,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) + [Yar
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lukemorales/react-github-repo-list
+$ git clone https://github.com/tiago-silva-analista/Website-bootstrap-to-react/
 
 # Go into the repository
-$ cd react-github-repo-list
+$ cd Website-bootstrap-to-react
 
 # Install dependencies
 $ yarn install
