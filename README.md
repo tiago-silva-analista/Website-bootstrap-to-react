@@ -23,7 +23,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 -  [ReactJS](https://reactjs.org/)
 -  [styled-components](https://www.styled-components.com/)
 -  [BootStrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-  [VS Code]
 
 ## :anchor: Structure
 
