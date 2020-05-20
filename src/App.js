@@ -6,143 +6,18 @@ import Header from './Components/Header'
 import Banner from './Components/Banner'
 import {About} from './Components/About'
 import {Services} from './Components/Services'
+import {Portfolio} from './Components/Portfolio'
+import {Testimonial} from './Components/Testimonial'
 
 function App() {
   return (
     <div>
       <Header Title="Developer Tiago - Analista"/>
-
-      <Banner />
-     
-      <About />
-      
-      <Services />
-      <section class="content-section text-center" id="Portfolio">
-        <div class="container">
-          <div class="block-heading">
-            <h2>Portfolio</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-          <div class="portfolio-wrapper clearfix">
-            <a class="each-portfolio" data-fancybox="gallery" href="images/p-two.jpeg">
-              <div class="content hover-cont-wrap">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="images/p-two.jpeg" />
-                <div class="content-details fadeIn-bottom">
-                  <h5 class="p-title">Title</h5>
-                  <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="zoom"><i class="fa fa-search-plus"></i></span>
-                </div>
-              </div>
-            </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
-              <div class="content hover-cont-wrap">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="images/p-three.jpeg" />
-                <div class="content-details fadeIn-bottom">
-                  <h5 class="p-title">Title</h5>
-                  <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="zoom"><i class="fa fa-search-plus"></i></span>
-                </div>
-              </div>
-            </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="images/p-four.jpeg">
-              <div class="content hover-cont-wrap">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="images/p-four.jpeg" />
-                <div class="content-details fadeIn-bottom">
-                  <h5 class="p-title">Title</h5>
-                  <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="zoom"><i class="fa fa-search-plus"></i></span>
-                </div>
-              </div>
-            </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="images/p-five.jpeg">
-              <div class="content hover-cont-wrap">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="images/p-five.jpeg" />
-                <div class="content-details fadeIn-bottom">
-                  <h5 class="p-title">Title</h5>
-                  <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="zoom"><i class="fa fa-search-plus"></i></span>
-                </div>
-              </div>
-            </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="images/p-six.jpeg">
-              <div class="content hover-cont-wrap">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="images/p-six.jpeg" />
-                <div class="content-details fadeIn-bottom">
-                  <h5 class="p-title">Title</h5>
-                  <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="zoom"><i class="fa fa-search-plus"></i></span>
-                </div>
-              </div>
-            </a>
-            <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
-              <div class="content hover-cont-wrap">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="images/p-three.jpeg" />
-                <div class="content-details fadeIn-bottom">
-                  <h5 class="p-title">Title</h5>
-                  <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="zoom"><i class="fa fa-search-plus"></i></span>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="Testimonials" class="content-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="block-heading">
-                <h2>Testimonials</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-              <div id="customers-testimonials" class="owl-carousel">
-                <div class="item">
-                  <div class="shadow-effect">
-                    <img class="img-circle" src="images/sarah.jpg" alt="" />
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                  </div>
-                  <div class="testimonial-name">Sarah Jenks</div>
-                </div>
-                <div class="item">
-                  <div class="shadow-effect">
-                    <img class="img-circle" src="images/tangelia.jpg" alt="" />
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                  </div>
-                  <div class="testimonial-name">Tangelia Ekhoff</div>
-                </div>
-                <div class="item">
-                  <div class="shadow-effect">
-                    <img class="img-circle" src="images/john-doe.jpg" alt="" />
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                  </div>
-                  <div class="testimonial-name">John Doe</div>
-                </div>
-                <div class="item">
-                  <div class="shadow-effect">
-                    <img class="img-circle" src="images/amy.jpg" alt="" />
-                    <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
-                  </div>
-                  <div class="testimonial-name">Amy Tan</div>
-                </div>
-                <div class="item">
-                  <div class="shadow-effect">
-                    <img class="img-circle" src="images/daniel.jpg" alt="" />
-                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                  </div>
-                  <div class="testimonial-name">Daniel Felsted</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Banner />     
+      <About />      
+      <Services />      
+      <Portfolio />
+      <Testimonial />
 
       <section id="Contact" class="content-section">
         <div class="container">
