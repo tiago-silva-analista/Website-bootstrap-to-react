@@ -10,14 +10,14 @@ import React from 'react';
               }                   
 
     return(
-        <section id="About" class="content-section">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="block-heading">
+        <section id="About" className="content-section">
+        <div className="container text-center">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="block-heading">
                 <h2>{about.Title}</h2>
               </div>
-              <p class="lead">{about.Description}</p>
+              <p className="lead">{about.Description}</p>
             </div>
           </div>
         </div>
