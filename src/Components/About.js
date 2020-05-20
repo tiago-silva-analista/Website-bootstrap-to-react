@@ -2,8 +2,6 @@ import React from 'react';
 
  function About () {
     
-     console.log(props.label);
-
       let  about = 
             {
                 Id: 0,
