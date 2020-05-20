@@ -1,6 +1,8 @@
 import React from 'react';
 
-function About(){
+ function About () {
+    
+     console.log(props.label);
 
       let  about = 
             {

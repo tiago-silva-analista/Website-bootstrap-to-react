@@ -5,6 +5,7 @@ import './App.css';
 import Header from './Components/Header'
 import Banner from './Components/Banner'
 import About from './Components/About'
+import Services from './Components/Services'
 
 function App() {
   return (
@@ -14,72 +15,8 @@ function App() {
       <Banner />
      
       <About />
-      <section id="Services" class="content-section text-center">
-        <div class="container">
-          <div class="block-heading">
-            <h2>What We Offer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-          <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <div class="service-box">
-                <div class="service-icon yellow">
-                  <div class="front-content">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <h3>Family Travel</h3>
-                  </div>
-                </div>
-                <div class="service-content">
-                  <h3>Family Travel</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="service-box">
-                <div class="service-icon orange">
-                  <div class="front-content">
-                    <i class="fa fa-suitcase"></i>
-                    <h3>Business Travel</h3>
-                  </div>
-                </div>
-                <div class="service-content">
-                  <h3>Business Travel</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="service-box ">
-                <div class="service-icon red">
-                  <div class="front-content">
-                    <i class="fa fa-male" aria-hidden="true"></i>
-                    <h3>Solo Travel</h3>
-                  </div>
-                </div>
-                <div class="service-content">
-                  <h3>Solo Travel</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="service-box">
-                <div class="service-icon grey">
-                  <div class="front-content">
-                    <i class="fa fa-users"></i>
-                    <h3>Camping</h3>
-                  </div>
-                </div>
-                <div class="service-content">
-                  <h3>Camping</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+      <Services />
       <section class="content-section text-center" id="Portfolio">
         <div class="container">
           <div class="block-heading">
