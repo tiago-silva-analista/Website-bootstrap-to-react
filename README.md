@@ -23,7 +23,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 -  [ReactJS](https://reactjs.org/)
 -  [styled-components](https://www.styled-components.com/)
 -  [BootStrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-  [VS Code]
 
 ## :anchor: Structure
 
@@ -43,10 +43,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) + [Yar
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lukemorales/react-github-repo-list
+$ git clone https://github.com/tiago-silva-analista/Website-bootstrap-to-react/
 
 # Go into the repository
-$ cd react-github-repo-list
+$ cd Website-bootstrap-to-react
 
 # Install dependencies
 $ yarn install
