@@ -55,7 +55,7 @@ export const Portfolio = () => {
                             <a className="each-portfolio" data-fancybox="gallery" href={item.src}>
                                 <div className="content hover-cont-wrap">
                                     <div className="content-overlay"></div>
-                                    <img className="content-image" src={item.src} />
+                                    <img className="content-image" alt="description" src={item.src} ></img>
                                     <div className="content-details fadeIn-bottom">
                                         <h5 className="p-title">{item.Title}</h5>
                                         <p className="p-desc">{item.Description}</p>
